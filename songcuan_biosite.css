@@ -1,0 +1,95 @@
+/*
+Ryan Songcuan
+2/13/2022
+Module 7.3 Assignment: bioSite: Development
+ */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat';
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: rgba(0, 58, 93, 1);
+    color: white;
+    width: 100%;
+    position: relative;
+    padding: 20px;
+    text-align: left;
+}
+
+.header h1, .header ul {
+    display: inline-block;
+}
+
+.header h1 {
+    padding-top: 20px;
+}
+nav {
+    display: flex;
+    float: right;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links {
+    padding: 28px 0;
+}
+
+.nav-links li {
+    display: inline-block;
+    margin: 0 15px;
+}
+.nav-links li img {
+    height: 20px;
+    width: 20px;
+}
+.nav-links li a {
+    color: rgba(0, 149, 202, 1);
+    text-decoration: none;
+    padding: 5px 0;
+}
+
+.nav-links li a:hover {
+    text-decoration: underline;
+}
+
+h2 {
+    padding: 50px 0 50px 20px;
+    color: rgba(0, 58, 93, 1);
+}
+h3 {
+    text-align: center;
+    color: rgba(0, 149, 202, 1);
+}
+
+figure {
+    text-align: center;
+}
+
+#landing {
+    display: grid;
+    margin-top: 10%;
+    margin-left: 25%;
+    grid-template-columns: auto auto auto;
+}
+
+.landing-img {
+    border: 3px solid rgba(0, 58, 93, 1);
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.hobbies-img {
+    border: 3px solid rgba(0, 58, 93, 1);
+    border-radius: 15px;
+    padding: 20px;
+}
+
+.about-img {
+    border: 3px solid rgba(0, 58, 93, 1);
+    border-radius: 15px;
+    padding: 20px;
+}
