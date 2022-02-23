@@ -46,6 +46,11 @@ nav {
     height: 20px;
     width: 20px;
 }
+
+.nav-links li img:hover {
+    box-shadow: 0 0 15px 1.5px rgba(0, 149, 202, 1);
+}
+
 .nav-links li a {
     color: rgba(0, 149, 202, 1);
     text-decoration: none;
@@ -53,7 +58,7 @@ nav {
 }
 
 .nav-links li a:hover {
-    text-decoration: underline;
+    text-shadow: 0 0 11px rgba(0, 149, 202, 1);
 }
 
 h2 {
@@ -70,28 +75,53 @@ figure {
 }
 
 #landing {
+    width: 100%;
+    padding-top: 25px;
     display: grid;
-    margin-top: 10%;
-    margin-left: 25%;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: auto auto;
 }
 
 .landing-img {
     border: 3px solid rgba(0, 58, 93, 1);
     border-radius: 15px;
-    padding: 5px;
+    margin: 20px;
+    padding-top: 10px;
+}
+
+.landing-img:hover {
+    box-shadow: 0 0 15px 1.5px rgba(0, 149, 202, 1);
 }
 
 .hobbies-img {
     border: 3px solid rgba(0, 58, 93, 1);
     border-radius: 15px;
     padding: 20px;
+    margin: 0 5% 8% 5%;
+}
+
+.hobbies-img a {
+    width: 100%;
+    height: auto;
+    margin: 30px 20px 20px 20px;
+}
+
+.hobbies-img p {
+    margin: 30px 20px 20px 20px;
 }
 
 .about-img {
     border: 3px solid rgba(0, 58, 93, 1);
     border-radius: 15px;
     padding: 20px;
+    margin: 0 20% 8% 20%;
+}
+
+.about-img figure {
+    padding: 20px;
+}
+
+.landing-img img, .hobbies-img img, .about-img img {
+    border-radius: 15px;
 }
 
 footer {
@@ -100,5 +130,27 @@ footer {
     bottom: 0;
     width: 100%;
     left: 0;
-    color: white;
+    right: 0;
+    color: rgba(0, 149, 202, 1);
+    font-style: italic;
+    height: 70px;
+}
+
+footer p {
+    float: left;
+    padding-top: 1.5%;
+    padding-left: 5px;
+}
+
+footer img {
+    width: 200px;
+    height: 50px;
+    float: right;
+    margin-top: 10px;
+    margin-right: 30px;
+    border-radius: 8px;
+}
+
+footer img:hover {
+    box-shadow: 0 0 10px 6px rgba(0, 149, 202, 1);
 }
