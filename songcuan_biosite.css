@@ -52,33 +52,38 @@ nav {
 }
 
 .nav-links li a {
-    color: rgba(0, 149, 202, 1);
+    color: white;
     text-decoration: none;
     padding: 5px 0;
 }
 
 .nav-links li a:hover {
-    text-shadow: 0 0 11px rgba(0, 149, 202, 1);
+    color: rgba(0, 149, 202, 1);
+    text-shadow: 0 0 10px rgba(0, 149, 202, 1);
 }
 
+#intro {
+    text-align: center;
+}
 h2 {
-    padding: 50px 0 50px 20px;
+    padding: 50px 0 25px 20px;
     color: rgba(0, 58, 93, 1);
 }
 h3 {
     text-align: center;
-    color: rgba(0, 149, 202, 1);
-}
-
-figure {
-    text-align: center;
+    color: rgba(0, 58, 93, 1);
 }
 
 #landing {
     width: 100%;
-    padding-top: 25px;
+    padding-top: 10px;
+    margin-bottom: 60px;
     display: grid;
     grid-template-columns: auto auto;
+}
+
+#landing a {
+    text-decoration: none;
 }
 
 .landing-img {
@@ -86,6 +91,7 @@ figure {
     border-radius: 15px;
     margin: 20px;
     padding-top: 10px;
+    text-align: center;
 }
 
 .landing-img:hover {
@@ -131,7 +137,7 @@ footer {
     width: 100%;
     left: 0;
     right: 0;
-    color: rgba(0, 149, 202, 1);
+    color: white;
     font-style: italic;
     height: 70px;
 }
@@ -153,4 +159,61 @@ footer img {
 
 footer img:hover {
     box-shadow: 0 0 10px 6px rgba(0, 149, 202, 1);
+}
+
+.hobbies-container {
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+}
+
+.container {
+    position: relative;
+    flex: 50%;
+    justify-content: space-between;
+}
+
+#image4 {
+    max-height: 545px;
+    width: auto;
+    margin-left: 15%;
+}
+
+.image {
+    width: 90%;
+    height: auto;
+    border-radius: 15px;
+    justify-content: center;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: auto;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 149, 202, 1);
+    border-radius: 15px;
+}
+
+.container:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+#space {
+    margin-bottom: 80px;
 }
