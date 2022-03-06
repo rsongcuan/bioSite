@@ -1,7 +1,7 @@
 /*
 Ryan Songcuan
-2/13/2022
-Module 7.3 Assignment: bioSite: Development
+3/6/22
+Module 12.2 Assignment: bioSite: Final Submission
  */
 
 * {
@@ -119,11 +119,35 @@ h3 {
     border: 3px solid rgba(0, 58, 93, 1);
     border-radius: 15px;
     padding: 20px;
-    margin: 0 20% 8% 20%;
+    margin: 0 20% 100px 20%;
 }
 
-.about-img figure {
-    padding: 20px;
+.about-pics {
+    max-height: 240px;
+}
+#work-pics-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+#work-pics-1 img {
+    max-width: 100%;
+    max-height: 240px;
+    margin-left: 5%;
+    align-content: center;
+}
+
+
+#work-pics-2, #work-pics-3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+#work-pics-2 img, #work-pics-3 img {
+    max-width: 100%;
+    max-height: 240px;
+    margin-left: 5%;
+    align-content: center;
 }
 
 .landing-img img, .hobbies-img img, .about-img img {
